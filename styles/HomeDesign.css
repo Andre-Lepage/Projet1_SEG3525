@@ -1,0 +1,283 @@
+#quote{
+    border-color: #3cb371;
+    border-style: solid;
+    border-width: 5px;
+    line-height: 2.0;
+    margin: 40px;
+    padding: 40px;
+    
+}
+
+#submit-comment{
+    margin-left: 40px;
+}
+
+#booking-header{
+    padding-top: 0px;
+}
+
+#subtitle {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+
+#questions-comments{
+    padding-top: 0px;
+    text-align: center;
+}
+
+#information{
+    background-color: rgba(60, 179, 113, 0.4);
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+  }
+
+#homer{
+    background-image: url('homebackground6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    
+}
+
+
+h3 {
+    text-align: center;
+    font-family: Verdana;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+}
+
+h4 {
+    
+    font-family: Verdana;
+    padding-bottom: 10px;
+    padding-top: 30px; 
+    justify-content: center;
+}
+
+.navcol{
+    background-color: #3cb371;
+}
+
+.nav-link, .reservation-button, .submit-button, #create-booking, .return-home {
+    font-size: 19px;
+    font-family: Verdana;
+  }
+.reservation-button, .submit-button, .return-home, #create-booking{
+    background-color: #007d00;
+    color: white;
+}
+
+#create-booking-div{
+    margin-top: 20px;
+}
+
+.confirmation-button{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    padding-top: 5%; /* Add padding to the top of the body to prevent overlap */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+
+#home-reservation-button, #create-booking-div{
+    display: flex;
+    justify-content: center;
+}
+
+#description, #reviews, #experts{
+    padding-left: 13%;
+    padding-right: 13%;
+    line-height: 2.1;
+    padding-bottom: 30px;
+    
+}
+
+#contact{
+    line-height: 2.1;
+    padding-bottom: 30px;
+}
+
+.seperate{
+    padding-left: 13%;
+    padding-right: 13%;
+ }
+
+#Services{
+    line-height: 2.1;
+    padding-bottom: 30px;
+}
+
+#pricing{
+    background-color: rgba(60, 179, 113, 0.7);
+    text-align: left;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 2% ;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+.customer-name{
+    padding-left: 5px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+
+hr {
+    position: relative;
+    border: none;
+    height: 2px;
+    background: #3cb371;
+    
+  }
+
+ .service{
+    justify-content: center;
+    padding-right: 5%;
+ }
+
+ #service-list{
+    padding-left: 13%;
+    padding-right: 13%;
+    line-height: 2.1;
+    padding-bottom: 30px;
+ }
+
+ h5{
+    font-family: Verdana;
+ }
+
+ .learn-more{
+    background: none;
+    border: none;
+    color: #007d00;
+    padding-bottom: 10px;
+ }
+
+ .expert-card{
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+ }
+
+.form{
+    padding-bottom: 10px;
+}
+
+.submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.address-hours{
+    background-color: rgba(60, 179, 113, 0.7);
+    text-align: center;
+    
+    
+}
+
+.contact-title{
+    padding: 10px;
+    text-align: center;
+}
+
+#address, #hours{
+    line-height: 1;
+}
+
+#map{
+    
+    width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.phone-email{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-group{
+    padding-top: 10px;
+}
+
+#hours{
+    text-align: center;
+}
+
+#questions{
+    padding-left: 40px;
+}
+
+#insta{
+    width: 48;
+    height: auto;
+}
+
+#booking-form{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+#confirmation-title{
+    padding-bottom: 20px;
+}
+
+#confirmation-details{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #3cb371;
+    border-style: solid;
+    border-width: 4px;
+    line-height: 2.0;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    
+}
+
+.form-label{
+    padding-top: 20px;
+}
+
+.footer-content{
+    margin-top: auto;
+    background-color: #3cb371;
+    padding: 20px;
+}
+
+html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+
+

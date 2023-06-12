@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Confirmation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/HomeDesign.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!--Navbar  try and fix justify center fix service not glowing on way up-->
+    <nav class = "navbar navbar-expand-sm navcol fixed-top justify-content-center">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href="index.html">
+                <img src="pictures/logo4.png" alt="Nourish Well Logo" class = "rounded" style="width:220px;"> 
+            </a>
+            <ul class = "navbar-nav me-auto">
+                <!--add links to navbar once done-->
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="index.html#about-link" > <b>About</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="index.html#services-link" > <b>Services</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="index.html#experts-link"> <b>Our experts</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="index.html#contact-link"> <b>Contact us </b> </a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <a href="Booking.html">
+                    <button class="btn reservation-button btn-outline-success" type="button"> Book Now</button>
+                </a>
+            </form>
+        </div>
+    </nav>
+
+    <div class = "container-fluid content" id="confirmation">
+        <h1 id = "confirmation-title">Booking Confirmation</h1>
+
+        <div id = "confirmation-details">
+            <h4>Your booking has been confirmed! You will receive an email shortly with your booking details</h4>
+            <h4><b>Important: </b>You must give us 24 hours notice to cancel or you will receive a cancellation fee of 10$</h4>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-sm-6 confirmation-button">
+                <a href="index.html">
+                    <button class="btn btn-outline-success return-home" type="button"> Return to Home</button>
+                </a>
+                
+            </div>
+            <div class="col-sm-6 confirmation-button">
+                <a href = "Booking.html">
+                    <button class="btn reservation-button btn-outline-success" type="button"> Book Again</button>
+                </a>
+                
+            </div>
+          </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            ‎
+        </div>
+    </footer>
+        
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="scripts/HomeJS.js"></script>
+  </body>
+</html>

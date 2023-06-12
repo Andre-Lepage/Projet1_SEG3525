@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/HomeDesign.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!--Navbar  try and fix justify center fix service not glowing on way up-->
+    <nav class = "navbar navbar-expand-sm navcol fixed-top justify-content-center">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href="#">
+                <img src="pictures/logo4.png" alt="Nourish Well Logo" class = "rounded" style="width:220px;"> 
+            </a>
+            <ul class = "navbar-nav me-auto">
+                <!--add links to navbar once done-->
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="#about-link" > <b>About</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="#services-link" > <b>Services</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="#experts-link"> <b>Our experts</b> </a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href ="#contact-link"> <b>Contact us </b> </a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <a href="Booking.html">
+                    <button class="btn reservation-button btn-outline-success" type="button"> Book Now</button>
+                </a>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="hidden" id = "homer">
+            <div id = "information">
+                <h1 class ="title">Nutritionists and diet specialists</h1>
+            <h3 id = "subtitle" > Receive personalized nutrition counseling that will help you meet your health goals </h3>
+            </div>
+            <div class id ="home-reservation-button">
+                <a href="Booking.html">
+                    <button  class="btn reservation-button btn-outline-success" type="button"> Book Now</button>
+                </a>
+                
+            </div>
+            <div id = "about-link"></div>
+        </div>
+        <div id ="description">
+            <h3>About us</h3>
+            <p id = "about-description">By serving the nutrition needs of the people of Ottawa for over 50 years, we know what it takes to
+                help people live happier, healthier lives. Whether you are a high performing athlete, suffering from an eating disorder, want
+                to lose weight, or simply want to eat healthier, we will make a custom nutrition plan for you. You will be safe in the hands of our trained 
+                experts, each with over 10 years of experience.
+            </p>
+        </div>
+        
+        <div id = "reviews">
+            
+            <h3>What Our Clients Are Saying</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>Oliver Reid</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </div>
+                            <div class="card-body">"A few months ago, I started going to the gym but I didn't know what I should eat to 
+                            get stronger. After an initial session and two follow-up sessions, I am already seeing better results."
+                            </div>
+                      </div>
+                </div>
+                <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <p>Jennifer James</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </div>
+                            <div class="card-body">"I have been struggling with my body image for my whole life.
+                                Last year, I was diagnosed with anorexia. I turned to the experts at Nourish Well and they saved my life."</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>Hugh Mongous</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">"I had a habit of binge eating which had caused me to weigh over 350 pounds.
+                            Two years after my sessions at Nourish Well, I am down 100 lbs and Happier then ever!"
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "services-link"></div>
+        </div>
+
+        
+
+        <div id = "Services">
+            <div class = "seperate"><hr></div>
+            <h3>Services</h3>
+
+            <div id = "pricing">
+                <h4><b>Pricing</b></h4>
+                <p>At Nourish Well, we beleive that no one should have to pay more or less depending on what kind of help they are getting. 
+                    That is why we are committed to offering all of our services at the same price: </p>
+                <p><u>Initial 1 hour session: 110$</u></p>
+                <p><u>Extra 30 minute session: 70$</u></p>
+            </div>
+            
+            <div id="service-list">
+                <div class="row">
+                    <div class="col-sm-6 service">
+                        <h4>Sports Nutrition</h4>
+                        <p>Are you an Athlete that wants to get better at your sport? Do you want to feel better when playing it? 
+                            We offer a variety of services that will help athletes reach their goals in a healthy and safe manner.
+                            No matter what sport you play or what physical feet you want to attain, Our Nourish Well experts will be 
+                            there with you every step of the way.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 service">
+                        <h4>Special Diets</h4>
+                        <p>
+                            It is not always easy to figure out what to eat when you choose to or need to follow a specific diet.
+                            We offer couseling for diets that are:
+                        </p>
+                        <ul>
+                            <li>Vegetarian</li>
+                            <li>Vegan</li>
+                            <li>Gluten free</li>
+                            <li>Animal based</li>
+                            <li>Allergen Free</li>
+                            <li>And many more ...</li>
+                          </ul>  
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 service">
+                        <h4>Weight Loss</h4>
+                        <p>Have you been struggling to lose weight? Are you tired of diet culture? It is not easy to lose weight,
+                            Especially when you have developed habbits that make it all the more difficult. We are here to help. 
+                            Our experts will help you lose weight and keep it off, so that you can live a happy, healthy life. 
+                        </p>
+                    </div>
+                    <div class="col-sm-6 service">
+                        <h4>Meal Planning</h4>
+                        <p>
+                            Are you a busy person who needs help planning meals for the week? We can help you build a custom plan
+                            so you can enjoy food you like and save time preparing. At Nourish Well, We have a database of thousands of 
+                            healthy and nutricious meal planning options that are sure to satisfy even the picky eater. 
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 service">
+                        <h4>Eating Disorders</h4>
+                        <p>
+                            At Nourish Well, we know the harm eating disorders can cause. If you are suffering from and of these problems,
+                             our experts can help:
+                        </p>
+                        <ul>
+                            <li>Anorexia</li>
+                            <li>Bulimia</li>
+                            <li>Body dismorphia</li>
+                            <li>Food addiction</li>
+                            <li>Othorexia</li>
+                          </ul>  
+                    </div>
+                    <div class="col-sm-6 service">
+                        <h4>Child Nutrition <span class="badge bg-secondary">New</span></h4>
+                        <p>
+                            Is the diet of your child something you often think about? We are here to teach you how
+                            to better prepare food for you kid so that they live healthier and happier lives. We can meet with
+                            you and your child or just you to help you better understand the importance of healthy eating for kids.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id = "experts-link"></div>
+        </div>
+
+        <div id = "experts">
+            <hr>
+            <h3>Our experts</h3>
+            <div class="row">
+                <div class="col-sm-6 expert-card">
+                    <div class="card">
+                        <img class="card-img-top doctor-image" src="pictures/Metah-Bolisim.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5><u>Dr. Metah Bolisim</u></h5>
+                            <p>Experience: 10 years</p>
+                            <p>Specialty: Eating Disorders</p>
+                            <p>Interesting Fact: Published author, focuses on psychological aspects of eating disorders. </p>
+                            <button data-bs-toggle="collapse" data-bs-target="#bolisim-description" class = "learn-more">learn more...</button>
+                            <div id = "bolisim-description" class="collapse">
+                                <p>Dr. Bolisim is a compassionate nutritionist with a deep understanding of eating disorders. She takes a holistic approach to help individuals 
+                                    struggling with disorders like anorexia, bulimia, and binge eating. Her focus is not only on providing personalized meal plans but also on 
+                                    addressing the underlying emotional and psychological factors that contribute to disordered eating habits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 expert-card">
+                    <div class="card">
+                        <img class="card-img-top doctor-image" src="pictures/Keen-Wah.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5><u>Dr. Keen Wah</u></h5>
+                            <p>Experience: 8 years</p>
+                            <p>Specialty: Sports Nutrition</p>
+                            <p>Interesting Fact: Former competitive athlete, represented state in swimming championships. </p>
+                            <button data-bs-toggle="collapse" data-bs-target="#wah-description" class = "learn-more">learn more...</button>
+                            <div id = "wah-description" class="collapse">
+                                <p>Dr. Wah is a dedicated sports nutritionist who helps athletes optimize their performance through proper nutrition. 
+                                    She designs tailored meal plans to fuel athletic performance, enhance recovery, and support overall well-being.
+                                    With her personal experience as an athlete, Dr. Wah understands the unique dietary requirements and challenges faced 
+                                    by sports professionals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-sm-6 expert-card">
+                    <div class="card">
+                        <img class="card-img-top doctor-image" src="pictures/Vitah-Minh.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5><u>Dr. Vitah Minh</u></h5>
+                            <p>Experience: 12 years</p>
+                            <p>Specialty: Weight Loss and Meal Planning</p>
+                            <p>Interesting Fact: Culinary enthusiast, trained in various culinary schools around the world.</p>
+                            <button data-bs-toggle="collapse" data-bs-target="#minh-description" class = "learn-more">learn more...</button>
+                            <div id = "minh-description" class="collapse">
+                                <p>Dr. Minh is a skilled nutritionist known for his innovative approach to weight loss and meal planning.
+                                    He combines evidence-based strategies with his culinary expertise to create enjoyable and sustainable
+                                    meal plans that align with clients' weight loss goals. Dr. Minh believes in making healthy eating accessible 
+                                    and enjoyable for long-term success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 expert-card">
+                    <div class="card">
+                        <img class="card-img-top doctor-image" src="pictures/Cal-Lorie.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h5><u>Dr. Cal Lorie</u></h5>
+                            <p>Experience: 15 years</p>
+                            <p>Specialty: Special Diets and Child Nutrition</p>
+                            <p>Interesting Fact: Conducted extensive research on nutrition and childhood brain development.</p>
+                            <button data-bs-toggle="collapse" data-bs-target="#lorie-description" class = "learn-more">learn more...</button>
+                            <div id = "lorie-description" class="collapse">
+                                <p>Dr. Lorie is a renowned nutritionist known for his expertise in special diets and child nutrition.
+                                    He provides comprehensive guidance to individuals with specific dietary needs, such as food allergies,
+                                    intolerances, and sensitivities. Dr. lorie also works closely with parents to develop healthy eating habbits
+                                    and optimize nutrition for children, supporting their growth and development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div id = "contact-link"></div>
+        </div>
+
+        <div id = "contact">
+            <hr>
+            <h3>Contact Us</h3>
+            
+                        
+                    
+
+            
+            
+            <div class="container">
+                
+                <div class = "row">
+                    <div class="col-sm-6 address-hours">
+                        <div class = "contact-group">
+                            <h5 class = "phone-email"><b>Phone: 613-883-8740</b></h5>
+                            <h5 class = "phone-email" ><b>Email: nourishwell@gmail.com</b></h5>
+                        </div>
+                        <div class = "row">
+                            <div class="col-sm-6" id = "address">
+                                <h5 class="contact-title"><u>Address</u></h5>
+                                <p>200 Lees avenue</p>
+                                <p>Ottawa, ON K1S 5J6</p>
+                                <p>Canada</p>
+                                <img src="pictures/map.png" alt="map" id ="map">
+                            </div>
+                            <div class="col-sm-6" id = "hours">
+                                <h5 class = "contact-title"><u>Hours of Operation</u></h5>
+                                <p>Monday-Friday: 8:00 - 16:00</p>
+                                <p>Saturday: 8:00- 12:00</p>
+                                <p>Sunday: closed</p>
+
+                                <h5 class = "contact-title"><u>Follow us on social media</u></h5>
+                                <a href="https://www.instagram.com/"><img src="pictures/icons8-instagram-48.png" alt="instagram" id ="instagram" ></a>
+                                <a href ="https://www.facebook.com/"><img src="pictures/icons8-facebook-48.png" alt="facebook" id ="facebook" ></a>
+                                <a href="https://twitter.com/"><img src="pictures/icons8-twitter-48.png" alt="twitter" id ="twitter" ></a>
+                                
+                                
+                                
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-6" id="questions">
+                        <h4 id = "questions-comments">Submit your questions/comments here</h4>
+                        <form id ="comment-form">
+                            <div class = "form">
+                                <div class = "row form">
+                                    <div class="col-sm-6">
+                                        <label for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="example@domain.com" name="email" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="phone">Phone number (optional):</label>
+                                        <input type="text" class="form-control" id="phone" placeholder="xxx-xxx-xxxx" name="phone">
+                                    </div>
+                                </div>
+                                
+                                
+                                <label for="comment">Type out your questions/coments here. We will email you with a response as soon as we can. Wait times may vary.
+                                </label>
+                                <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
+                                <div class = "submit">
+                                    <button class="btn submit-button" type= "button" id="submit-comment" data-bs-toggle="modal" data-bs-target="#myModal">Submit</button>
+                                </div>
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                  
+                                        <div class="modal-header">
+                                          <h4 class="modal-title">Sucess!</h4>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                  
+                                        <div class="modal-body">
+                                          We have received your message. To send us another one, please fill out the form again.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+
+    
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="scripts/HomeJS.js"></script>
+  </body>
+</html>
